@@ -346,4 +346,5 @@ img::-moz-selection {
 .demohyperlink{
     text-decoration: none;
     color: white;
+    margin:30px;
 }

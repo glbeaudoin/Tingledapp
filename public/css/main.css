@@ -6,3 +6,9 @@
 .menu-toggle{
     padding-left: 500px;
 }
+
+.modcaptcha{
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+}
