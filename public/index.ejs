@@ -22,6 +22,13 @@
         
         <title>NeoSurvey</title>
     
+        <script type="text/javascript">
+          var onloadCallback = function() {
+            grecaptcha.render('html_element', {
+              'sitekey' : '6LfxDkQUAAAAAFKMje1s64nznGbQmv9oqRU0yzHE'
+            });
+          };
+        </script>
     </head>
     <body id="page-top">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -94,5 +101,9 @@
         <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
         <!-- Custom scripts for this template -->
         <script src="js/grayscale.min.js"></script>
+        
+        <!-- Captcha JavaScript -->
+        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
     </body>
 </html>
