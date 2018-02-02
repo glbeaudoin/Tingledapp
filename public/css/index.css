@@ -167,6 +167,7 @@ a:focus, a:hover {
     border-right:none;
     border: 0px solid white;
     border-radius: 50%;
+    font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .btn-sign:focus, .btn-sign:hover {
@@ -197,12 +198,14 @@ a:focus, a:hover {
     color: white;
     opacity: 0.8;
     text-align: center;
+    font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 and Edge*/
     color: white;
     opacity: 0.8;
     text-align: center;
+    font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .formSubmit{
     margin-top:2px;
@@ -210,9 +213,11 @@ a:focus, a:hover {
     border-radius: 2px;
     background: rgba(255, 255, 255, 0);
     color:white;
+    font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .formSubmit:focus, .formSubmit:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
 }
 
 .btn-circle {
