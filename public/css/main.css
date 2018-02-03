@@ -12,3 +12,18 @@
     text-align: center;
     margin-top: 15px;
 }
+
+.sidebarToToggleNavbar{
+    display:block;
+    position: fixed;
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
+    width:7px;
+    margin:0px;
+}
+.sidebarToToggleNavbar:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+.inline-block{
+    display: inline-block;
+}
