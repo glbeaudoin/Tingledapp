@@ -27,3 +27,23 @@
 .inline-block{
     display: inline-block;
 }
+.inputAnswer{
+    width:25%;
+}
+.inputQuestion{
+    width:100%;
+}
+.remove_field, .add_field_button{
+    width:50px;
+    font-size: 2em;
+}
+.remove_field:hover, .add_field_button:hover{
+    color: rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.form{
+    text-align: center;
+}
+.question{
+    text-align: left;
+}
