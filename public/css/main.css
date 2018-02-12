@@ -28,10 +28,20 @@
     display: inline-block;
 }
 .inputAnswer{
-    width:25%;
+    width:10em;
+    margin-top:2px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border: 1px solid white;
+    color:white;
 }
 .inputQuestion{
-    width:100%;
+    width:40em;
+    margin-top:2px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border: 1px solid white;
+    color:white;
 }
 .remove_field, .add_field_button{
     width:50px;
@@ -44,6 +54,6 @@
 .form{
     text-align: center;
 }
-.question{
-    text-align: left;
+.sign-collapse{
+    text-align: center;
 }

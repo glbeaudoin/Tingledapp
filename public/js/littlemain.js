@@ -15,7 +15,7 @@ $(document).ready(function() {
     $(add_button_x).click(function(e){ //on add input button click
         e.preventDefault();
         if(0<x && x<= max_fields){ //max input box allowed
-            $(wrapper_x).append('<div class="question"><input type="text" placeholder="Question'+x+'" class="inputQuestion Q'+x+'" name="Q'+x+'"/><br><input class="inputAnswer" type="text" placeholder="Answer '+x+'.1" name="'+x+'-1"/><input class="inputAnswer" type="text" placeholder="Answer '+x+'.2" name="A'+x+'-2"/><input type="text" placeholder="Answer'+x+'.3" class="inputAnswer" name="A'+x+'-3"/><input type="text" placeholder="Answer'+x+'.4" class="inputAnswer" name="A'+x+'-4"/></div>'); //add input box
+            $(wrapper_x).append('<div class="question"><input type="text" placeholder="Question '+x+'" class="inputQuestion Q'+x+'" name="Q'+x+'"/><br><input class="inputAnswer" type="text" placeholder="Answer '+x+'.1" name="'+x+'-1"/><input class="inputAnswer" type="text" placeholder="Answer '+x+'.2" name="A'+x+'-2"/><input type="text" placeholder="Answer '+x+'.3" class="inputAnswer" name="A'+x+'-3"/><input type="text" placeholder="Answer '+x+'.4" class="inputAnswer" name="A'+x+'-4"/></div>'); //add input box
             x++; //text box increment
         }
     });
